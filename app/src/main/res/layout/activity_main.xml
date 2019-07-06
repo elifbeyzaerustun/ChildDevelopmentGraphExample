@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
+
+    <com.github.mikephil.charting.charts.PieChart
+        android:id="@+id/piechart1"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="90dp">
+
+    </com.github.mikephil.charting.charts.PieChart>
+
+    <ImageView
+        android:id="@+id/bedenselgelisim"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignWithParentIfMissing="false"
+        android:layout_alignBaseline="@id/piechart1"
+        android:layout_alignLeft="@id/piechart1"
+        android:layout_alignTop="@id/piechart1"
+        android:layout_alignRight="@id/piechart1"
+        android:layout_alignBottom="@id/piechart1"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentBottom="false"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="@android:dimen/app_icon_size"
+        android:layout_marginLeft="53dp"
+        android:layout_marginTop="128dp"
+        android:layout_marginEnd="@android:dimen/app_icon_size"
+        android:layout_marginRight="43dp"
+        android:layout_marginBottom="22dp"
+        android:visibility="visible"
+        app:srcCompat="@drawable/graphicicon1" />
+
+    <TextView
+        android:id="@+id/bedenselgelisimtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignWithParentIfMissing="false"
+        android:layout_below="@id/piechart1"
+        android:layout_alignLeft="@id/piechart1"
+        android:layout_alignBottom="@id/piechart1"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentBottom="false"
+        android:layout_centerInParent="false"
+        android:layout_marginLeft="18dp"
+        android:layout_marginBottom="-40dp"
+        android:layout_toRightOf="@id/piechart1"
+        android:text="@string/pieChart1Percentage"
+        android:textColor="#7427CF" />
+
+
+    <com.github.mikephil.charting.charts.PieChart
+        android:id="@+id/piechart2"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="90dp" />
+
+    <ImageView
+        android:id="@+id/zihinselgelisim"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignWithParentIfMissing="false"
+        android:layout_alignBaseline="@id/piechart2"
+        android:layout_alignLeft="@id/piechart2"
+        android:layout_alignTop="@id/piechart2"
+        android:layout_alignRight="@id/piechart2"
+        android:layout_alignBottom="@id/piechart2"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentBottom="false"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="@android:dimen/app_icon_size"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="128dp"
+        android:layout_marginEnd="@android:dimen/app_icon_size"
+        android:layout_marginRight="45dp"
+        android:layout_marginBottom="22dp"
+        android:visibility="visible"
+        app:srcCompat="@drawable/graphicicon2"
+        />
+
+    <TextView
+        android:id="@+id/zihinselgelisimtext"
+        android:layout_width="126dp"
+        android:layout_height="43dp"
+        android:layout_alignWithParentIfMissing="false"
+        android:layout_below="@id/piechart2"
+        android:layout_alignLeft="@id/piechart2"
+        android:layout_alignBottom="@id/piechart4"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentBottom="false"
+        android:layout_centerInParent="false"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="240dp"
+        android:layout_marginBottom="167dp"
+        android:layout_toRightOf="@id/piechart2"
+        android:text="@string/pieChart2Percentage"
+        android:textColor="#E5A63A" />
+
+
+    <TextView
+        android:id="@+id/sosyalgelisimtext"
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:layout_alignWithParentIfMissing="false"
+        android:layout_below="@id/piechart3"
+        android:layout_alignLeft="@id/piechart3"
+        android:layout_alignBottom="@id/piechart3"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentBottom="false"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="452dp"
+        android:layout_marginBottom="-40dp"
+        android:layout_toRightOf="@id/piechart3"
+        android:text="@string/pieChart3Percentage"
+        android:textColor="#50B5F9" />
+
+
+
+
+
+
+    <com.github.mikephil.charting.charts.PieChart
+        android:id="@+id/piechart3"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="300dp" >
+
+    </com.github.mikephil.charting.charts.PieChart>
+
+
+    <com.github.mikephil.charting.charts.PieChart
+        android:id="@+id/piechart4"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="300dp" />
+
+    <ImageView
+        android:id="@+id/duygusalgelisim"
+        android:layout_width="65dp"
+        android:layout_height="44dp"
+        android:layout_alignWithParentIfMissing="false"
+        android:layout_alignBaseline="@id/piechart4"
+        android:layout_alignLeft="@id/piechart4"
+        android:layout_alignTop="@id/piechart4"
+        android:layout_alignRight="@id/piechart4"
+        android:layout_alignBottom="@id/piechart4"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentBottom="false"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="@android:dimen/app_icon_size"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="351dp"
+        android:layout_marginEnd="@android:dimen/app_icon_size"
+        android:layout_marginRight="48dp"
+        android:layout_marginBottom="55dp"
+        android:visibility="visible"
+        app:srcCompat="@drawable/graphicicon3" />
+
+    <TextView
+        android:id="@+id/duygusalgelisimtext"
+        android:layout_width="129dp"
+        android:layout_height="56dp"
+        android:layout_alignWithParentIfMissing="false"
+        android:layout_below="@id/piechart4"
+        android:layout_alignLeft="@id/piechart4"
+        android:layout_alignBottom="@id/piechart4"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentBottom="false"
+        android:layout_centerInParent="false"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="452dp"
+        android:layout_marginBottom="-58dp"
+        android:layout_toRightOf="@id/piechart4"
+        android:text="@string/pieChart4Percentage"
+        android:textColor="#E8427C" />
+
+    <ImageView
+        android:id="@+id/sosyalgelisim"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="350dp"
+        app:srcCompat="@drawable/graphicicon4" />
+
+</RelativeLayout>

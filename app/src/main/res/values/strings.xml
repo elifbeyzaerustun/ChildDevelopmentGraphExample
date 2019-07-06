@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ChildDevelopmentGraphExample</string>
+
+    <string name="pieChart1Percentage">Bedensel Gelişim\n\t\t\t\t\t%30</string>
+    <string name="pieChart2Percentage">Zihinsel Gelişim\n\t\t\t\t\t%40</string>
+    <string name="pieChart3Percentage">Sosyal Gelişim\n\t\t\t\t\t%50</string>
+    <string name="pieChart4Percentage">Duygusal Gelişim\n\t\t\t\t\t%60</string>
+
+</resources>
